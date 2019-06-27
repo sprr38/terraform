@@ -1,0 +1,11 @@
+{
+    "appenders": {
+      "cheese": {
+        "type": "file",
+        "filename": "log/vpod.log"
+      }
+    },
+    "categories": {
+      "default": { "appenders": ["cheese"], "level": "info" }
+    }
+  }

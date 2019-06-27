@@ -1,0 +1,21 @@
+{
+       "SERVER_PORT": 8081,
+        "ROUTE_VIRTUAL_DIR": "",
+        "java" : "ami-0b9633ba15f33fa46",
+        "python": "ami-0b9633ba15f33fa46",
+        "nodejs" : "ami-0b9633ba15f33fa46",
+        "emailSuffix":"@virtusa.com",
+        "StateFileBucketName":"vpod-prod",
+        "sesConf":[
+                {
+                        "lambdaFunctionName":"ses",
+                        "region":"us-west-2"
+                }
+        ],
+        "RDS_Details":[
+                {
+                        "host":"vpodrds-prod.cmj9olzxzaqm.us-west-2.rds.amazonaws.com",
+                        "dbName":"vpod"
+                }
+        ]
+}
